@@ -1,9 +1,10 @@
 
 //node model class
 class Node {
-    constructor(data = null, next = null) {
+    constructor(data = null, next = null,prev = null) {
         this.data = data;
         this.next = next;
+        this.prev = prev;
     }
 }
 
@@ -47,7 +48,7 @@ class LinkedList {
 
     //insert data on the begining
     insertAtBegin(data) {
-        let node = new Node(data, this.head);
+        let node = new Node(data, this.head,null);
 
         this.head = node;
         //console.log(this.head)
@@ -56,7 +57,7 @@ class LinkedList {
     // insert at the end node
     insertAtEnd(data) {
         if (this.head == null) {
-            this.head = new Node(data, null);
+            this.head = new Node(data, null,null);
             return;
         }
 
@@ -65,7 +66,7 @@ class LinkedList {
             itr = itr.next;
         }
 
-        itr.next = new Node(data, null);
+        itr.next = new Node(data, null,itr);
     }
 
     // insert at the target node
@@ -86,7 +87,7 @@ class LinkedList {
         while(itr){
            
             if(count == index - 1){ 
-                itr.next = new Node(data,itr.next);
+                itr.next = new Node(data,itr.next,itr);
              break;
             }
              count += 1;
@@ -100,7 +101,7 @@ class LinkedList {
         let itr = this.head;
         while(itr){
             if(itr.data == targetValue){ 
-                itr.next = new Node(insertValue,itr.next);
+                itr.next = new Node(insertValue,itr.next,itr);
              break;
             }
              itr = itr.next;
@@ -156,7 +157,7 @@ class LinkedList {
 
 //// calling 
 
-//import {LinkedList} from '/LinkedList/linkedList.js'
+//import {LinkedList} from '/LinkedList/linkedListWithPrev.js'
 let ll = new LinkedList();
 ll.insertAtBegin(5);
 ll.insertValues([77,89,55]);

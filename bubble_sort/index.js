@@ -2,12 +2,11 @@
 
 // Examples:
 
-// Input: arr[] = [20, 91, 20, 78, 98, 95, 99]
+// Input: arr[] = [99,20, 91, 20, 78, 98, 95]
 // Output: [20, 20, 78, 98, 97, 98, 99]
 
 function bubbleSort(arr) {
-  if (arr.length === 0 || arr.length === 1) return arr;
-
+  if (arr.length <= 1) return arr;
   let temp;
   for (let i = 0; i < arr.length; i++) {
     //for (let j = 0; j < arr.length; j++) {  // find last element undefind causes : arr[j + 1]
@@ -26,8 +25,8 @@ function bubbleSort(arr) {
 }
 
 export function main() {
-  console.log("input: " + [20, 91, 20, 78, 98, 95, 99]);
-  const result = bubbleSort([20, 91, 20, 78, 98, 95, 99]);
+  console.log("input: " + [99,20, 91, 20, 78, 98, 95]);
+  const result = bubbleSort([99,20, 91, 20, 78, 98, 95]);
   console.log("output: " + result);
 }
 

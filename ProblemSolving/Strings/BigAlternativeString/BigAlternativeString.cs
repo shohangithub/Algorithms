@@ -22,9 +22,7 @@ public static class BigAlternativeString
     {
         char[] uniqueCharacters = str.Distinct().ToArray();
 
-        // get pair conbinations
-
-        // var pairCombinations = new List<string>();
+        // get pair combinations
         var pairCombinations = new HashSet<string>();
 
         for (int i = 0; i < uniqueCharacters.Length; i++)

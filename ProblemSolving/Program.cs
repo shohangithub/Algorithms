@@ -12,3 +12,8 @@ Console.WriteLine(CountTheNumberOfPairs.CountPairsOptimized([ 1, 7, 5, 9, 2, 12,
 
 Console.WriteLine("\n****Big Alternative String:****\n\n");
 BigAlternativeString.BigAlternativePairString("abaacdabd");
+
+
+
+Console.WriteLine("\n****Check Strong Password:****\n\n");
+StrongPassword.SetStrongPassword(7,"AUzs-nV");

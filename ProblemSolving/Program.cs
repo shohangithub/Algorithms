@@ -16,4 +16,8 @@ BigAlternativeString.BigAlternativePairString("abaacdabd");
 
 
 Console.WriteLine("\n****Check Strong Password:****\n\n");
-StrongPassword.SetStrongPassword(7,"AUzs-nV");
+StrongPassword.SetStrongPassword(7, "AUzs-nV");
+
+
+Console.WriteLine("\n****Encrypt Caesar Chiper String:****\n\n");
+CaesarCipher.ProtectedString("abcdefghijklmnopqrstuvwxyz", 3);

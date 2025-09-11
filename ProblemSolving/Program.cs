@@ -21,3 +21,13 @@ StrongPassword.SetStrongPassword(7, "AUzs-nV");
 
 Console.WriteLine("\n****Encrypt Caesar Chiper String:****\n\n");
 CaesarCipher.ProtectedString("abcdefghijklmnopqrstuvwxyz", 3);
+
+
+Console.WriteLine("\n****Mars Exploration String:****\n\n");
+MarsExploration.Exploration("SOSTOT");
+
+
+Console.WriteLine("\n****Subsequence Char in String:****\n\n");
+var result = SubSequenceCharString.ContainsSubsequence("haackccklerrannk");
+//var result = SubSequenceCharString.ContainsSubsequence("haacckkerrannkk");
+Console.WriteLine(result);

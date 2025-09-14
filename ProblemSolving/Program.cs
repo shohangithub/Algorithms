@@ -38,3 +38,6 @@ WeightedUniformStrings.Execute("abcccddde", new List<int> { 6, 1, 3, 12, 5, 9, 1
 Console.WriteLine("\n****Funny String:****\n\n");
 FunnyString.Execute("acxz");
 FunnyString.Execute("bcxz");
+
+Console.WriteLine("\n****Gemstones:****\n\n");
+Gemstones.Execute(["abcdde", "baccd", "eeabg"]);

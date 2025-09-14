@@ -7,7 +7,7 @@ SuperReduceString.SuperReduce("aaabccddd");
 Console.WriteLine(SuperReduceString.MinimumNumber(3, "Ab1"));
 
 Console.WriteLine("\n****Count the number of pairs of integers:****\n\n");
-Console.WriteLine(CountTheNumberOfPairs.CountPairsOptimized([ 1, 7, 5, 9, 2, 12, 3],2));
+Console.WriteLine(CountTheNumberOfPairs.CountPairsOptimized([1, 7, 5, 9, 2, 12, 3], 2));
 
 
 Console.WriteLine("\n****Big Alternative String:****\n\n");
@@ -31,3 +31,10 @@ Console.WriteLine("\n****Subsequence Char in String:****\n\n");
 var result = SubSequenceCharString.ContainsSubsequence("haackccklerrannk");
 //var result = SubSequenceCharString.ContainsSubsequence("haacckkerrannkk");
 Console.WriteLine(result);
+
+Console.WriteLine("\n****Weighted Uniform Strings:****\n\n");
+WeightedUniformStrings.Execute("abcccddde", new List<int> { 6, 1, 3, 12, 5, 9, 10 });
+
+Console.WriteLine("\n****Funny String:****\n\n");
+FunnyString.Execute("acxz");
+FunnyString.Execute("bcxz");

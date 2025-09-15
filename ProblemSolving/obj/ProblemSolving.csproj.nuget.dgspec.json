@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj": {}
+    "D:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj": {}
   },
   "projects": {
-    "d:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj": {
+    "D:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj",
+        "projectUniqueName": "D:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj",
         "projectName": "ProblemSolving",
-        "projectPath": "d:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj",
+        "projectPath": "D:\\Personel\\Algorithms\\ProblemSolving\\ProblemSolving.csproj",
         "packagesPath": "C:\\Users\\Redlime\\.nuget\\packages\\",
-        "outputPath": "d:\\Personel\\Algorithms\\ProblemSolving\\obj\\",
+        "outputPath": "D:\\Personel\\Algorithms\\ProblemSolving\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

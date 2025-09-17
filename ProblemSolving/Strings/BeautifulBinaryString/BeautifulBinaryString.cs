@@ -5,8 +5,7 @@ public static class BeautifulBinaryString
         int count = 0;
         for (int i = 0; i < str.Length - 2; i++)
         {
-           
-            if (str.AsSpan(i, 3).SequenceEqual("010"))
+            if (str.Substring(i, 3) == "010")
             {
                 count++;
                 i += 2; // Skip the next two characters to avoid overlapping

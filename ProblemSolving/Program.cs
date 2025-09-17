@@ -41,3 +41,7 @@ FunnyString.Execute("bcxz");
 
 Console.WriteLine("\n****Gemstones:****\n\n");
 Gemstones.Execute(["abcdde", "baccd", "eeabg"]);
+
+
+Console.WriteLine("\n****Beautiful Binary String:****\n\n");
+BeautifulBinaryString.Execute("0101010");

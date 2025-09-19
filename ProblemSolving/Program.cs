@@ -45,3 +45,8 @@ Gemstones.Execute(["abcdde", "baccd", "eeabg"]);
 
 Console.WriteLine("\n****Beautiful Binary String:****\n\n");
 BeautifulBinaryString.Execute("0101010");
+
+
+Console.WriteLine("\n****Love Letter Mystery String:****\n\n");
+TheLoveLetterMystery.Execute("abaac");
+// abbac -> abbab -> abbaa -> aabaa
